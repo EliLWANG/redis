@@ -5,6 +5,10 @@
 #define _BSD_SOURCE
 #endif
 
+#if defined(__NetBSD__)
+#define _NETBSD_SOURCE
+#endif
+
 #if defined(__sun__)
 #define _POSIX_C_SOURCE 200112L
 #elif defined(__linux__)

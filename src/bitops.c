@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "redis.h"
+#include "bitops.h"
 
 /* -----------------------------------------------------------------------------
  * Helpers and low level bit functions.

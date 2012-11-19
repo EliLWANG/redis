@@ -39,7 +39,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#ifndef __BITOPS_H
 #include <string.h>
+#endif
 #include <time.h>
 #include <limits.h>
 #include <unistd.h>

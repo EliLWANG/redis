@@ -32,6 +32,10 @@
 
 #define _BSD_SOURCE
 
+#if defined(__NetBSD__)
+#define _NETBSD_SOURCE
+#endif
+
 #if defined(__linux__)
 #define _GNU_SOURCE
 #endif
